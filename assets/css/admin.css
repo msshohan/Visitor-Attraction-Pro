@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'MS Glyphicons';
+	src: url( '../fonts/glyphicons-halflings-regular.ttf' ), url( '../fonts/glyphicons-halflings-regular.woff' ), url( '../fonts/glyphicons-halflings-regular.woff2' ), url( '../fonts/glyphicons-halflings-regular.eot' );
+}
+body {
+    background: #f1f1f1 !important;
+}
+.acf-button-group {
+	display: flex;
+    flex-wrap: wrap;
+}
+.acf-button-group label {
+    min-width: 25%;
+    max-width: 25%;
+    margin: 5px;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+	font-family: 'MS Glyphicons' !important;
+}
+.ms-admin-heading-one {
+	font-family: montserrat, sans-serif;
+}
+#menu-posts-ms-simple-popup,
+#menu-posts-ms-simple-slider,
+#menu-posts-ms-web-notification {
+	display: none !important;
+}
+a.btn.btn-secondary,
+.nav-tabs .nav-link {
+    text-decoration: none;
+}
+.nav-tabs .nav-link {
+	color: #495057;
+    background-color: #ffffff;
+    border-top: 1px solid #555555;
+    border-right: 1px solid #555555;
+    border-left: 1px solid #555555;
+}
+.nav-tabs .nav-link:hover {
+	background: #555555;
+    color: #ffffff;
+}
+.nav-tabs .nav-link.active {
+	background: black;
+    color: white;
+    border-top: 1px solid #555555;
+    border-right: 1px solid #555555;
+    border-left: 1px solid #555555;
+}
+.alert-dismissible .close {
+    padding: .55rem 1.25rem;
+}
